@@ -2,6 +2,6 @@ namespace CSharpExcercises
 {
     public interface IRunnable
     {
-         void Run();
+         void Run(Video video);
     }
 }

@@ -2,6 +2,6 @@ namespace CSharpExcercises
 {
     public interface IExecutable
     {
-         void Execute();
+         void Execute(WorkFlow workFlow);
     }
 }

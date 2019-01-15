@@ -4,19 +4,24 @@ namespace CSharpExcercises
 {
     public class WorkFlowEngine : IRunnable
     {
-        private readonly List<IExecutable> _flows;
+        private readonly List<IExecutable> _works;
 
         public WorkFlowEngine()
         {
-            _flows = new List<IExecutable>();
+            _works = new List<IExecutable>();
         }
 
-        public void Run()
+        public void Run(Video video)
         {
-            foreach (var flow in _flows)
+            foreach (var work in _works)
             {
-                flow.Execute();
+                work.Execute(new WorkFlow());
             }
+        }
+
+        public void RegisterWork(IExecutable work)
+        {
+                _works.Add(work);
         }
     }
 }
