@@ -11,6 +11,8 @@ namespace CSharpExcercises
             var workFlowEngine = new WorkFlowEngine();   
             workFlowEngine.RegisterWork(new UploadVideoToCloud());
             workFlowEngine.RegisterWork(new CallWebServiceToEncode());
+            workFlowEngine.RegisterWork(new SendEmailToOwner());
+            workFlowEngine.RegisterWork(new ChangeVideoStatus());
             workFlowEngine.Run(new Video());
             System.Console.WriteLine("Done!");
         }
