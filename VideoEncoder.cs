@@ -1,4 +1,5 @@
 using System.Threading;
+using System;
 
 namespace CSharpExcercises
 {
@@ -7,7 +8,9 @@ namespace CSharpExcercises
         // 1. Define Delegate
         // 2. Define Event based on that delegate
         // 3. Raise the Event
-         
+
+        public delegate void VideoEncoderEventHandler(object source, EventArgs args);
+
         public void Encode(Video video)
         {
             
