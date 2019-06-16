@@ -21,3 +21,8 @@ $ git remote -v
 # Verify new remote
 > origin  https://github.com/user/repo.git (fetch)
 > origin  https://github.com/user/repo.git (push)
+
+System.Environment.GetFolderPath
+   (System.Environment.SpecialFolder.Personal)
+   + @"\TextFile.txt") ); 
+  
