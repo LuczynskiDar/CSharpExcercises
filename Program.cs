@@ -7,6 +7,7 @@ namespace CSharpExcercises
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            DirFileReader.methody();
         }
     }
 }
