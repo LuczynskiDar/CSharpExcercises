@@ -10,7 +10,10 @@ namespace CSharpExcercises {
             var di = new DirectoryInfo(sth);
             var fils = di.GetFiles();
             var fls  = di.GetFiles("*.ini"); // an array of file info
+            var flenu = di.EnumerateFiles("*.ini");
             var dirs = di.GetDirectories(); //an array of directoryinfos
+            var dirs1 = di.GetDirectories(); //an array of directoryinfos
+            var dirsenu = di.EnumerateDirectories();
             System.Console.WriteLine(somes);
         }
 

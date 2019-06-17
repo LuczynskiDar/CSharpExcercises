@@ -23,3 +23,6 @@ $ git remote -v
 # Verify new remote
 > origin  https://github.com/user/repo.git (fetch)
 > origin  https://github.com/user/repo.git (push)
+
+https://docs.microsoft.com/en-us/dotnet/api/system.io.directory?view=netframework-4.8
+https://docs.microsoft.com/en-us/dotnet/api/system.io.directoryinfo.enumeratedirectories?view=netframework-4.8
