@@ -15,6 +15,7 @@ namespace CSharpExcercises {
                 var xml = new XmlSerializer (typeof (DataXML));
                 xml.Serialize (stream, data);
             }
+            OnSerdesed(data);
         }
 
         public DataXML deserialize (string fullPath) {

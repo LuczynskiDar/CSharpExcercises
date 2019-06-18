@@ -21,10 +21,11 @@ namespace CSharpExcercises
             };
 
             var serdes = new SerdesXML ();
+            var com = new ComConnect(); // subscriber
+            serdes.Serdesed += com.OnSerdesed;
             serdes.serialize (data, filePath);
 
-             var com = new ComConnect(); // subscriber
-             serdes.Serdesed += com.OnSerdesed;
+
 
 
         }
