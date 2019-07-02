@@ -51,6 +51,8 @@ namespace CSharpExcercises {
             // The variable isValid will be true if everything is valid
             // The results variable contains the results of the validation
 
+            var a  = new TreeNode();
+
             Console.WriteLine ("Hello World!");
             System.Console.WriteLine (isValid);
         }
